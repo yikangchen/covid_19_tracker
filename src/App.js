@@ -28,14 +28,16 @@ export default class App extends Component {
 
         return (
             <div className={styles.container}>
-                <div className="left">
+                <div className="left-content">
                     <Cards data={this.state.data}/>
                     <CountrySelector handleCountryChnage={this.handleCountryChange}/>
                     <Chart data={data} country={country}/>
                 </div>
-                <div className="right">
+
+                <div className="right-content">
                     <Ranking ranking={top10}/>
                 </div>
+            
             </div>
         )
     }

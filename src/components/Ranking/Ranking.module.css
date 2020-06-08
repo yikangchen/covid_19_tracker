@@ -1,9 +1,12 @@
 table {
+    table-layout: fixed;
+    width: 400px;
     text-align: left;
+    margin: auto;
 }
 
 thead {
-    text-align: center;
+    text-align: left;
 }
 
 td {

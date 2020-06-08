@@ -17,7 +17,7 @@ export default function Ranking({ top10 } ) {
 
     return (
         <div className={styles.container}> 
-        <p>Top 10 Countries by Number of Confirmed Cases</p>
+        <h3>Top 10 Countries with Most Confirmed Cases</h3>
         <table>
             <thead>
             <tr>
